@@ -1,4 +1,5 @@
 import os
+
 settings = {
     'host': os.environ.get('ACCOUNT_HOST', 'https://sredevops.documents.azure.com:443/'),
     'master_key': os.environ.get('ACCOUNT_KEY', 'jEdyU4qvtudIAoK9mxWkJ3IqUT3IUzbc195UE7YG0limMdelJYmYa79WsfwSeaaZjcC5xV5SbpkUQmrOHbYL6A=='),
