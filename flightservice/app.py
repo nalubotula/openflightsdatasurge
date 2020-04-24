@@ -7,6 +7,7 @@ app = Flask(__name__)
 def hello():
     return "Hello World!"
 
+
 @app.route('/parseUrl',methods=['GET'])
 def parseDataFronURL():
     # inputReq=request.data;
